@@ -39,7 +39,7 @@ The app will return 10 matching recipes based on:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/dish-recommender.git
+git clone https://github.com/edha1/dish-recommender.git
 cd dish-recommender
 ```
 ### 2. Start servers
