@@ -1,0 +1,121 @@
+.body{
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  background: #f0f0f0;
+  margin: 30px;
+  border: 3px solid #000;
+  box-shadow: 10px 10px 0 #000;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.input-button {
+  cursor: pointer;
+  border: 2px solid #000;
+  background: #f3a042;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.input-button:hover {
+  background: #f3a042;
+  transform: translateX(-5px) translateY(-5px) translateZ(10px);
+  box-shadow: 5px 5px 0 0 #000;
+}
+
+.input-search {
+  width: 100%;
+  border: 3px solid #000;
+  padding: 15px;
+  font-size: 14px;
+  background: #fff;
+  color: #000;
+}
+
+.input-search::placeholder {
+  color: #666;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.input-search:hover, .input-search:focus {
+  background: #f0f0f0;
+  transform: translateZ(20px) translateX(-5px) translateY(-5px);
+  box-shadow: 5px 5px 0 0 #000;
+}
+
+
+.description{
+  color: black;
+  font-size: 12px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px; 
+  width: 100%;
+}
+
+.loader {
+  border: 5px solid #ffffff; 
+  border-top: 5px solid #000000; 
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.card-title {
+  color: black;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  color: black;
+  margin: 6px 0;
+  line-height: 1.5;
+}
+
+.ingredients {
+  color: black;
+  margin-top: 10px;
+  font-size: 0.95rem;
+  white-space: pre-wrap;
+}
+
+.card-container{
+  background: #f0f0f0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+  border: 4px solid #000;
+  max-width: 700;
+  box-shadow: 10px 10px 0 #000;
+  margin: 30px;
+}
