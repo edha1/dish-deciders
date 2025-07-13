@@ -18,7 +18,7 @@ The app will return 10 matching recipes based on:
 
 ## 🖼️ What it looks like 
 
-![Screenshot of UI](C:\Users\edham\Downloads\dish-deciders\dish-deciders-screenshot.png "Dish Deciders UI")
+![Screenshot of UI](dish-deciders-screenshot.png "Dish Deciders UI")
 
 ---
 
