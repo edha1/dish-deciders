@@ -1,4 +1,4 @@
-# 🍽️ Dish Recommender Web App
+# 🍽️ Dish Deciders - Dish Recommender Web App
 
 This is a full stack web application that uses content based recommendation to recommend 10 dishes from Food.com based on user input. The project leverages **TF-IDF vectorisation** and **cosine similarity** to compare user queries with thousands of recipes.
 
