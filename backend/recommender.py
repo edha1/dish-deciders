@@ -6,12 +6,6 @@ import numpy as np
 import isodate
 import re 
 
-
-#Alvin · Updated 5 years ago
-
-# Food.com - Recipes and Reviews
-# Data on over 500,000 recipes and 1,400,000 reviews from Food.com
-
 df = pd.read_csv("recipes.csv") # read in the file 
 
 vectoriser = TfidfVectorizer(stop_words='english', ngram_range=(1,2)) # create vectoriser
